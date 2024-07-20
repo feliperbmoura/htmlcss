@@ -5,28 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo 006</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens-cap19/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover ;
+            background-attachment: fixed;*/
+
+            /* Shorthand
+                color > image, position > repeat > [size] >
+            attachment            */
+
+            background: black url(imagens-cap19/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
 
         }
 
         main {
             background-color: white;
-            width: 400px;
-            padding: 10px;
             margin: auto;
+            max-width: 400px;
+            padding: 10px;
     
+        }
+
+        main h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            background-color: skyblue;
+            color: rgb(0, 4, 255);
+            transition-duration: 1s;
+            cursor: pointer;
+            margin: 0;
+            padding: auto;
+            margin-bottom: 10px;
+            
+        }
+        main h1:hover{
+            background-color: blue;
+            color: skyblue;
+        }
+
+        main p {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            margin: 0;
+        }
+
+        p{
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: justify;
+            text-indent: 20px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, porro soluta at laudantium rem tenetur adipisci quibusdam deleniti amet corrupti minus consequatur non ratione fugiat provident. In est aperiam aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae ipsa, non aut molestiae dolorum laboriosam cum voluptatem? Libero ratione corrupti aut cupiditate, nemo saepe a soluta placeat accusamus consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit maiores sequi vel accusamus hic tempora aliquam quibusdam rerum error saepe reprehenderit numquam, blanditiis illum officiis dolorem doloribus porro aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, porro soluta at laudantium rem tenetur adipisci quibusdam deleniti amet corrupti minus consequatur non ratione fugiat provident. In est aperiam aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae ipsa, non aut molestiae dolorum laboriosam cum voluptatem? Libero ratione corrupti aut cupiditate, nemo saepe a soluta placeat accusamus consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit maiores sequi vel accusamus hic tempora aliquam quibusdam rerum error saepe reprehenderit numquam, blanditiis illum officiis dolorem doloribus porro aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, porro soluta at laudantium rem tenetur adipisci quibusdam deleniti amet corrupti minus consequatur non ratione fugiat provident. In est aperiam aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae ipsa, non aut molestiae dolorum laboriosam cum voluptatem? Libero ratione corrupti aut cupiditate, nemo saepe a soluta placeat accusamus consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit maiores sequi vel accusamus hic tempora aliquam quibusdam rerum error saepe reprehenderit numquam, blanditiis illum officiis dolorem doloribus porro aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, porro soluta at laudantium rem tenetur adipisci quibusdam deleniti amet corrupti minus consequatur non ratione fugiat provident. In est aperiam aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae ipsa, non aut molestiae dolorum laboriosam cum voluptatem? Libero ratione corrupti aut cupiditate, nemo saepe a soluta placeat accusamus consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit maiores sequi vel accusamus hic tempora aliquam quibusdam rerum error saepe reprehenderit numquam, blanditiis illum officiis dolorem doloribus porro aspernatur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, porro soluta at laudantium rem tenetur adipisci quibusdam deleniti amet corrupti minus consequatur non ratione fugiat provident. In est aperiam aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae ipsa, non aut molestiae dolorum laboriosam cum voluptatem? Libero ratione corrupti aut cupiditate, nemo saepe a soluta placeat accusamus consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit maiores sequi vel accusamus hic tempora aliquam quibusdam rerum error saepe reprehenderit numquam, blanditiis illum officiis dolorem doloribus porro aspernatur.</p>
     </main>
 </body>
