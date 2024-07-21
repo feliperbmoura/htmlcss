@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    #container {
+    position: relative;
+    margin: auto;
+    height: 700px;
+    background-color: purple;
+}
+
+
+#conteudo {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: yellow;
+    left: 50% ;
+    top: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, -175%); 
+}
+
+#conteudo2 {
+    background-size: 100% 100%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+#conteudo3 {
+    background-size: 100% 100%; 
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%, 70%);
+}
+.conteudo-donut {
+    background-image: url(imagens-cap19/donut.png);
+}
+}
