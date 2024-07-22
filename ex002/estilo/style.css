@@ -23,6 +23,26 @@ header {
 
 }
 
+nav.navbar {
+
+}
+
+
+nav.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav.navbar a:hover{
+    color: yellow;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+
 
 header a {
     color: red;
